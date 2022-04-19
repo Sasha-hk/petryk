@@ -5,7 +5,7 @@ services:
     image: ghcr.io/sasha-hk/petryk-frontend:latest
     container_name: "frontend_petryk"
     ports:
-      - "3005:3005"
+      - "3005:3000"
     working_dir: /app
     restart: always
     env_file: .env

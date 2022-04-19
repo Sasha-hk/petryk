@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -- -p $FRONTEND_PORT",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
